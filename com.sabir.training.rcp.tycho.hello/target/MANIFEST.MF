@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Hello
+Bundle-SymbolicName: com.sabir.training.rcp.tycho.hello;singleton:=true
+Bundle-Version: 1.0.0.202004181940
+Bundle-Vendor: SABIR
+Require-Bundle: org.eclipse.ui
+Automatic-Module-Name: com.sabir.training.rcp.tycho.hello
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+

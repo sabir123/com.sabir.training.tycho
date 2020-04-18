@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='com.sabir.training.rcp.tycho.hello' version='1.0.0.202004181940' generation='2'>
+    <update id='com.sabir.training.rcp.tycho.hello' range='[0.0.0,1.0.0.202004181940)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Hello'/>
+      <property name='org.eclipse.equinox.p2.provider' value='SABIR'/>
+      <property name='maven-groupId' value='com.sabir.training.rcp.tycho'/>
+      <property name='maven-artifactId' value='com.sabir.training.rcp.tycho.hello'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.sabir.training.rcp.tycho.hello' version='1.0.0.202004181940'/>
+      <provided namespace='osgi.bundle' name='com.sabir.training.rcp.tycho.hello' version='1.0.0.202004181940'/>
+      <provided namespace='osgi.identity' name='com.sabir.training.rcp.tycho.hello' version='1.0.0.202004181940'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='com.sabir.training.rcp.tycho.hello' version='1.0.0.202004181940'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: com.sabir.training.rcp.tycho.hello;singleton:=true&#xA;Bundle-Version: 1.0.0.202004181940&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
