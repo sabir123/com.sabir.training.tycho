@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="com.sabir.training.rcp.tycho.hello.feature">
+      <category name="com.sabir.training.rcp.tycho.update"/>
+   </feature>
+   <category-def name="com.sabir.training.rcp.tycho.update" label="Hello"/>
+</site>
